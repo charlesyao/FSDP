@@ -1,0 +1,23 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: $navbar-bg-color;
+    color: $main-theme-color;
+    height: initial;
+    border-top: none;
+    .nav-footer{
+        li {
+            float: right;
+            margin-right: 1.25rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+            height: 40px;
+            line-height: 40px;
+            a{
+                padding: 0;
+                color: $main-theme-color;
+            }
+        }
+    }
+}

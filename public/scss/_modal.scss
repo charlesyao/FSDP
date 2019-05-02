@@ -1,0 +1,25 @@
+.modal-content{
+	.modal-header {
+		color: $modal-header-color;
+		background-color: $modal-header-bg;
+		.modal-title{
+			display: inline-block;
+		}
+		i.icon-outline-close {
+			background-color: #333333;
+			mask: url(../../appkit/assets/images/component/icons/outline/svg/Close.svg) no-repeat 50% 50%;
+			-webkit-mask: url(../../appkit/assets/images/component/icons/outline/svg/Close.svg) no-repeat 50% 50%;
+		}
+	}
+	.modal-body {
+		position: relative;
+		padding: 15px;
+		margin-bottom: 0;
+	}
+}
+@media (min-width: 992px){
+	.modal-extra-lg{
+		max-width: calc(100vw - 200px);
+	}
+}
+

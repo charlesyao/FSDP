@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="public/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="public/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="public/css/common.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="public/css/order.css" />
+</head>
+
+<body>
+  <section class="top-bar-wrap">
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center pt-2 news-wrapper">
+        <div class="news-content">
+          <span class="notice"> 5月沪牌竞拍时间：5月18日，拍沪牌就找爱代拍。专业代拍大平台，中标有保障。五一放假期间拍牌团队正常接单，赶紧下单吧。</span>
+          <span class="phone">400-880-2575</span>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center pt-2">
+        <a class="logo mr-auto" href="index.html">
+          <h1 title="">
+            <img src="public/img/logoindex.png" alt="" />
+          </h1>
+        </a>
+        <a href="aboutus.html">关于我们</a>
+      </div>
+    </div>
+  </section>
+  <section class="m-3">
+    <div class="container">
+      <form class="mb-2 bg-white p-3">
+        <div class="bg-light mb-4 p-2">
+          <h5 class="m-0">下单界面</h5>
+        </div>
+        <div class="bg-light mb-4 p-2">
+          <div class="form-group row">
+            <label for="" class="col-sm-2 col-form-label text-right">姓名：</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="" value="" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="" class="col-sm-2 col-form-label text-right">手机号码：</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="" value="" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="" class="col-sm-2 col-form-label text-right">验证码：</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="" value="" />
+            </div>
+            <div class="col-sm-2">
+              <button type="button" class="btn btn-info">发送验证码</button>
+            </div>
+          </div>
+        </div>
+        <div class="bg-light mb-4 p-2">
+          <div class="form-group row">
+            <label for="" class="col-sm-2 col-form-label text-right">投标号：</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="" value="" />
+            </div>
+            <label for="" class="col-sm-2 col-form-label text-right">套餐：</label>
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-info">5888 6次不中赔1200</button>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="" class="col-sm-2 col-form-label text-right">标书密码：</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="" value="" />
+            </div>
+            <label for="" class="col-sm-2 col-form-label text-right">拍牌次数：</label>
+            <div class="col-sm-2">
+              <button type="button" class="btn btn-info">6次</button>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="" class="col-sm-2 col-form-label text-right">身份证：</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="" value="" />
+            </div>
+            <label for="" class="col-sm-2 col-form-label text-right">优惠码：</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="" value="" />
+            </div>
+          </div>
+        </div>
+        <div class="bg-light mb-2 p-2">
+          <div class="form-group row mt-2">
+            <label for="" class="col-sm-2 col-form-label text-right">标书类型：</label>
+            <div class="col-sm-4">
+              <button type="button" class="btn btn-info">电子标书</button>
+              <button type="button" class="btn btn-outline-info">纸质标书</button>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="" class="col-sm-2 col-form-label text-right">登记手机号：</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="" value="" />
+            </div>
+            <div class="col-sm-2 pt-1">
+              <input type="checkbox" class="custom-control-input" id="checka" />
+              <label class="custom-control-label col-form-label" for="checka">是否与下单手机号一致</label>
+            </div>
+          </div>
+          <div class="form-group row upload-bid">
+            <label for="" class="col-sm-2 col-form-label text-right">上传照片：</label>
+            <div class="col-sm-10">
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="box-item box-item1" id="J_upload_box1">
+                    <span class="txt">标书第二联</span>
+                    <div id="input-img1" class="input-img"> </div>
+                    <input name="bid_pic" type="hidden" id="bid_pic" />
+                    <input type="file" name="file" class="input1" />
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="box-item box-item2" id="J_upload_box2">
+                    <span class="txt">身份证正面</span>
+                    <div id="input-img2" class="input-img"> </div>
+                    <input name="card_front_side" type="hidden" value="" />
+                    <input type="file" name="file" class="input2" />
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="box-item box-item3" id="J_upload_box3">
+                    <span class="txt">身份证反面</span>
+                    <div id="input-img3" class="input-img"> </div>
+                    <input name="card_back_side" type="hidden" value="" />
+                    <input type="file" name="file" class="input3" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="form-group row">
+            <label for="" class="col-sm-2 col-form-label text-right">照片规范：</label>
+            <div class="col-sm-10">
+              <p class="mask_des">
+                1. 标书照片必须全部拍摄，文字清晰可辩认。
+                <br />
+                2. 您提供的照片信息爱代拍将予以保护；若您仍有疑虑，可先将照片打印，标注文字“仅限拍牌使用”，
+                <br />
+                或者使用软件直接在照片上标注，然后再上传。
+              </p>
+              <div class="row">
+                <div class="col-sm-3">
+                  <img class="img-fluid" src="public/img/simple.png" />
+                </div>
+                <div class="col-sm-3">
+                  <img class="img-fluid" src="public/img/simple1.png" />
+                </div>
+                <div class="col-sm-3">
+                  <img class="img-fluid" src="public/img/simple2.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row offset-sm-2">
+          <input type="checkbox" class="custom-control-input" id="checkb" />
+          <label class="custom-control-label col-form-label" for="checkb">点击确认下单表示阅读且同意《
+            <a href="#" data-toggle="modal" data-target="#agreementModal">代拍委托协议</a>》</label>
+        </div>
+        <div class="form-group row offset-sm-2">
+          <button type="button" class="btn btn-info">确认下单</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- Modal -->
+  <div class="modal fade" id="agreementModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">代拍服务协议</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="main">
+            <p style="text-align:center;font-size:14px;font-family:&quot;">
+              <b>代拍服务协议</b>
+            </p>
+            <p style="text-align:center;font-family:Times;">
+              <b></b>
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              甲方委托乙方代拍待中标之后甲方支付乙方服务费---元，每月不中赔付---元，拍牌前一天 晚10:00支付，委托乙方代拍---次，如乙方中标当月甲方需返回赔付款---元，共计---元
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:Times;">
+              <br>
+            </p>
+            <p style="text-align:justify;font-size:10.5px;font-family:&quot;">
+              <b>代拍细则</b>
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:Times;">
+              <br>
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              1.由于甲方对电脑操作、网络操作、拍牌规则等不熟悉，甲方将本人名下一份投标拍卖卡交由乙方代理参与“上海私人、私企客车额度网上投标拍卖会”，委托参与报价投标，经甲乙双方友好协商，签订代拍协议。。
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              2.本协议约定期限内，甲方通过劲标网“www.alltobid.com”查得额度被拍中，甲方将无条件认可乙方的代理服务已完成，并按协议规定期限支付全额代拍服务费用。
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              3.甲方支付的服务费用均不含税。
+            </p>
+            <p style="text-align:justify;font-size:10.5px;font-family:&quot;">
+              <b>甲方细则</b>
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              1.委托期间，甲方不得以任何理由在竞拍进行时登入拍牌系统，如竞拍时因为抢登导致竞拍失败的，乙方可提供相应证据（如视频或截图等），否则由此造成的乙方拍牌不成功，则甲方需退还乙方先行支付的赔付金。
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              2.若甲方标书当月在审核中，则本合同委托期限顺延至标书审核通过之日始，继续委托乙方代拍。甲方须接受乙方代拍服务至少一次，否则视为违约。赔偿损失和支付违约金为代拍费的50%。
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              3.甲方服务期满，如需终止合同，需要在当月竞拍日提前一个星期提出，并得到乙方的确认，否则视为违约。赔偿损失和支付违约金为代拍费的50%。
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              4.中标后，甲方需在2个工作日内支付乙方代拍费。甲方不得拖欠乙方服务费，每日按就付款额的千分之一支付延迟履行金给乙方，直到付清为止。
+            </p>
+            <p style="text-align:justify;font-size:10.5px;font-family:&quot;">
+              <b>乙方责任细则</b>
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              1.乙方慎重承诺，甲方提供的任何资料只作本次代理拍牌使用，不做其它用途。 乙方因为工作失误未能为甲方参与竞拍，乙方需赔付甲方500元赔付金，并在三个工作日 内支付给甲方。
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              2.乙方为甲方竞拍中标后，甲方不得以任务理由拖欠服务费，超过7天未支付服务费，乙方有权向甲方发起诉讼，诉讼由乙方所在地人民法院管辖，由此产生的费用（包括但不限于法院诉讼费用、律师费等）由甲方承担。
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              3.乙方单方面解约的，应当保证不因乙方原因导致甲方后续拍牌受任何影响，并支付给甲方违约金500元，协议解除。例：甲方单次赔付款400元，则乙方需赔付的金额计算方式：500元违约金+400元的赔付金，总计900元。
+            </p>
+            <p style="text-align:justify;font-size:10.5px;font-family:&quot;">
+              <b>资金与发票</b>
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              1.本协议所涉及款项，均应当支付到爱沪牌网指定账号（开户名：上海爱互派汽车科技有限公司），任务期间和任务完成后，由爱沪牌网按本协议与约定进行。
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              2.本协议约定的服务费金额未含税金额。甲方需要发票的，应当先行补缴税款。
+            </p>
+            <p style="text-align:justify;font-size:10.5px;font-family:&quot;">
+              <b>违约免责</b>
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              1.如因为以下客观原因造成的无法竞拍，乙方则不承担违约责任，无需进行相应的赔付。
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              A.上海市交通委更改拍牌方式 ，原有竞拍模式失效，出现无法况拍的情况。
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:&quot;">
+              B.因战争、天气、等不可控客观因素导致无法竞拍的情况。
+            </p>
+            <p style="text-align:justify;text-indent:21px;font-size:10.5px;font-family:Times;">
+              2.出现以上因客观原因而无法竞拍的情况下，双方如继续履行协议，则乙方可为甲方增加一次竞拍次数。如因客观因素，协议无法继续履行，则甲方须退还乙方预先支付的赔付金。
+            </p>
+            <p style="text-align:justify;font-size:10.5px;font-family:Times;">
+              <br>
+            </p>
+            <p style="text-align:justify;font-size:10.5px;font-family:Times;">
+              甲方签字： &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; 乙方签字：
+            </p>
+            <p style="text-align:justify;font-size:10.5px;font-family:Times;">
+              <br>
+            </p>
+            <p style="text-align:justify;font-size:10.5px;font-family:Times;">
+              &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            </p>
+            <p style="text-align:justify;font-size:10.5px;font-family:Times;">
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;（敲章）：
+            </p>
+            <p style="text-align:justify;font-size:10.5px;font-family:Times;">
+              <br>
+            </p>
+            <p style="text-align:justify;font-size:10.5px;font-family:Times;">
+              日期：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 日期：
+            </p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="public/js/jquery-3.3.1.slim.min.js"></script>
+<script src="public/js/popper.min.js"></script>
+<script src="public/js/bootstrap.min.js"></script>
+
+</html>

@@ -1,0 +1,37 @@
+body {
+    background: #f5f8f9;
+}
+.top-bar-wrap{
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+.news-wrapper {  
+    width: 100%; 
+    position: relative;
+    background: #F8F8F8;
+    font-size: 12px;
+    color: rgba(102, 102, 102, 1);
+    line-height: 20px;
+    padding: 10px 0;
+}
+.news-wrapper .news-content{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.news-wrapper .notice {
+    background: url(../img/notice.png) no-repeat left center;
+    background-size: 15px 18px;
+    padding-left: 22px;
+    width: 950px;
+}
+.news-wrapper .phone {
+    position: absolute;
+    background: url(../img/phone.png) no-repeat left center;
+    background-size: 15px 18px;
+    padding-left: 25px;
+    right: 0;
+    font-size: 15px;
+    font-family: "dinbold";
+    color: rgba(102, 102, 102, 1);
+}

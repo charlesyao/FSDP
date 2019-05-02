@@ -1,0 +1,53 @@
+.custom-control-label::before{
+	top: .45rem;
+}
+
+.upload-bid input[type="file"] {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.upload-bid .txt {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    background: #35C1AE url(../img/i-down.png) no-repeat 15% center;
+    background-size: 20px;
+    border-radius: 5px;
+}
+.upload-bid .box-item {
+    height: 173px;
+    border: none;
+    position: relative;
+}
+.upload-bid .box-item.box-item1{
+	background: url(../img/card1.png) left top no-repeat;
+	background-size: 100%;
+}
+.upload-bid .box-item.box-item2{
+	background: url(../img/card2.png) left top no-repeat;
+	background-size: 100%;
+}
+.upload-bid .box-item.box-item3{
+	background: url(../img/card3.png) left top no-repeat;
+	background-size: 100%;
+}
+
+div {
+    display: block;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

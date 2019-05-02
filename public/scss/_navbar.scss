@@ -1,0 +1,104 @@
+.navbar {
+    z-index: 1001;
+    padding: 0;
+    .admin-setting.active {
+        background-color: $main-theme-color;
+        i {
+            color: #fff;
+        }
+    }
+    .top-bar {
+        background-color: $navbar-bg-color;
+        color: $navbar-color;
+        .app-name {
+            color: $main-theme-color;
+            font-weight: bold;
+        }
+        .topbar-padding {
+            height: 60px;
+            padding: 1.0rem 1.5rem;
+        }
+        i{
+            color: $main-theme-color;
+        }
+    }
+    &.sub-headers {
+        top: 60px;
+        width: 80px;
+        height: calc(100vh - 60px)!important;
+        background-color: $navbar-bg-color;
+        z-index: 100;
+        .navbar-nav li{
+            height: 60px;
+            line-height: 60px;
+            position: relative;
+            &:hover{
+                .sub-menus {
+                    display: block;
+                }
+            }
+            .sub-menus{
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 100%;
+                background-color: $navbar-bg-color;
+                min-width: 120px;
+                li{
+                    height: 35px;
+                    line-height: 35px;
+                    color: #fff;
+                    &:hover{
+                        background-color: #5E5326;
+                    }
+                    a{
+                        color: #fff;
+                        &:hover{
+                            color: #fff;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            a{
+                height: inherit!important;
+                line-height: inherit!important;
+                margin: 0;
+                &:link,&:visited,:hover,:active{
+                    display: inline-block;
+                    text-decoration: none;
+                    background-color: transparent;
+                    border-bottom: none;
+                }
+            }
+            &.active{
+                background-color: $main-theme-color;
+                border-top-right-radius: 35px;
+                border-bottom-right-radius: 35px;
+                a{
+                    &:link,&:visited,:hover,:active{
+                        display: inline-block;
+                        text-decoration: none;
+                        background-color: transparent;
+                        border-bottom: none;
+                    }
+                }
+                img.active-status{
+                    display: inline-block;
+                }
+                img.not-active-status{
+                display: none;
+            }
+            }
+            img.active-status{
+                display: none;
+            }
+            
+        }
+        .navbar-nav>li{
+            &:hover{
+                background-color: #5E5326;
+            }
+        }
+    }
+}

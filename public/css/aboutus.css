@@ -1,0 +1,126 @@
+.center_main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.mybody {
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: left;
+}
+.about-view .top h3 {
+    font-size: 32px;
+    color: #D3D3D3;
+    margin-top: 33px;
+}
+.about-view .top h4 {
+    font-size: 24px;
+    color: #333333;
+    margin-top: 5px;
+}
+.about-view .top p {
+    font-size: 14px;
+    color: #8F8F8F;
+    line-height: 25px;
+    margin-top: 25px;
+}
+.corporate>h3 {
+    font-size: 32px;
+    color: #D3D3D3;
+    line-height: 45px;
+    margin-top: 30px;
+}
+.corporate>h4 {
+    font-size: 24px;
+    color: #333333;
+    line-height: 33px;
+}
+
+.corporate div {
+    width: 326px;
+    height: 326px;
+    margin-right: 61px;
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.corporate div.c1 {
+    background: #fff url(../img/one.png) no-repeat;
+}
+.corporate div.c2 {
+    background: #fff url(../img/two.png) no-repeat;
+}
+.corporate div.c3 {
+    background: #fff url(../img/three.png) no-repeat;
+    margin-right: 0;
+}
+.corporate div h2 {
+    font-size: 18px;
+    margin-top: 112px;
+}
+.corporate div h3 {
+    font-size: 14px;
+    width: 154px;
+    margin: 18px auto;
+    line-height: 20px;
+}
+.corporate .ys_ul {
+    margin-top: 50px;
+    overflow: hidden;
+}
+.corporate .ys_ul li h2 {
+    margin: 40px auto 17px 30px;
+    font-size: 24px;
+}
+.corporate .ys_ul li {
+    width: 490px;
+    height: 287px;
+    margin-right: 35px;
+    margin-bottom: 10px;
+    float: left;
+    color: #fff;
+}
+.corporate .ys_ul li p {
+    font-size: 14px;
+    line-height: 25px;
+    margin: 0 30px;
+}
+.corporate .ys_ul li.y1 {
+    background: url(../img/ys1.png) no-repeat;
+}
+.corporate .ys_ul li.y2 {
+    background: url(../img/ys2.png) no-repeat;
+}
+.corporate .ys_ul li.y3 {
+    background: url(../img/ys3.png) no-repeat;
+}
+.corporate .ys_ul li.y4 {
+    background: url(../img/ys4.png) no-repeat;
+}
+.falv_content h2 {
+    margin-top: 40px;
+    font-size: 24px;
+    color: #06C1AE;
+    line-height: 34px;
+}
+.Common_problem h2 {
+    background: url(../img/qws.png) no-repeat left center;
+    font-size: 18px;
+    color: #333;
+    padding-left: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.Common_problem p {
+    background: url(./img/action.png) no-repeat left 6px;
+    font-size: 14px;
+    color: #8F8F8F;
+    line-height: 25px;
+    padding-left: 25px;
+    position: relative;
+    padding-bottom: 15px;
+}

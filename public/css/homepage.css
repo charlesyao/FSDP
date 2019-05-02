@@ -1,0 +1,119 @@
+.index-wrapper .top-wrap {
+    overflow: hidden;
+    /*width: 1200px;*/
+    /*min-height: 745px;*/
+    margin-top: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.index-wrapper .index-gf {
+    /*width: 850px;*/
+    /*float: left;*/
+    background: #fff;
+}
+.index-wrapper .index-right {
+    background: #fff;
+    padding-top: 15px;
+}
+
+.index-wrapper .paishou-top {
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    color: rgba(68, 68, 68, 1);
+    line-height: 20px;
+    padding: 25px 30px 25px 60px;
+    position: relative;
+    background: url(../img/jingxuan.png) no-repeat left 30px center;
+    background-size: 25px 20px;
+    border-bottom: 1px solid #F5F5F5;
+}
+.index-wrapper .paishou-top p {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    font-size: 14px;
+    color: rgba(153, 153, 153, 1);
+}
+.index-gf ul {
+    height: 240px;
+    overflow: hidden;
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.index-gf ul li:first-child {
+    border: none;
+}
+.index-gf li:hover {
+    background: rgba(239, 255, 254, 1);
+}
+.index-gf ul li {
+    height: 100%;
+    box-sizing: border-box;
+    width: 33.333%;
+    border-left: 1px solid rgba(240, 240, 240, 1);
+    float: left;
+    padding-top: 40px;
+}
+.index-gf .more-gf {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-top: 1px solid rgba(240, 240, 240, 1);
+}
+.index-gf .more-gf a {
+    display: inline-block;
+    font-size: 16px;
+    color: rgba(6, 193, 174, 1);
+    line-height: 16px;
+    position: relative;
+    top: 42px;
+    background-size: 15px 12px;
+    padding-right: 20px;
+}
+.index-gf .line {
+    height: 40px;
+    background: #f5f8f9;
+}
+.index-gf li .name {
+    font-size: 14px;
+    color: rgba(153, 153, 153, 1);
+    line-height: 14px;
+    margin-bottom: 13px;
+}
+.index-gf li .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(68, 68, 68, 1);
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.index-gf li .pf {
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+    line-height: 16px;
+    margin-bottom: 30px;
+}
+.index-gf li a {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid rgba(240, 240, 240, 1);
+    font-size: 14px;
+    color: rgba(153, 153, 153, 1);
+    line-height: 36px;
+}
+.index-right .list {
+    padding: 30px 14px 14px 30px;
+    font-size: 0;
+}
+.wx-box{
+    position: absolute;
+    right: 15px;
+}
+.wx-box img{
+    width: 140px;
+}
